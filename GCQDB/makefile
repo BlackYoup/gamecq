@@ -36,7 +36,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -I ../../Medusa/ -I ../ThirdParty/mysql/x86-Linux/include/
-CXXFLAGS= -g -I ../../Medusa/ -I ../ThirdParty/mysql/x86-Linux/include/
+CXXFLAGS= -g -I ../../Medusa/ -I ../ThirdParty/mysql/x86-Linux/include/ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -shared
 RESULT=libGCQDBD.so
@@ -61,7 +61,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -O2 -I ../../Medusa/ -I ../ThirdParty/mysql/x86-Linux/include/
-CXXFLAGS= -g -O2 -I ../../Medusa/ -I ../ThirdParty/mysql/x86-Linux/include/
+CXXFLAGS= -g -O2 -I ../../Medusa/ -I ../ThirdParty/mysql/x86-Linux/include/ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -shared
 RESULT=libGCQDB.so

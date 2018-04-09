@@ -36,7 +36,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -I ../ -I ../../Medusa/
-CXXFLAGS= -g -I ../ -I ../../Medusa/
+CXXFLAGS= -g -I ../ -I ../../Medusa/ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -shared
 RESULT=libGCQSD.so
@@ -61,7 +61,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -O2 -I ../ -I ../../Medusa/
-CXXFLAGS= -g -O2 -I ../ -I ../../Medusa/
+CXXFLAGS= -g -O2 -I ../ -I ../../Medusa/ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -shared
 RESULT=libGCQS.so

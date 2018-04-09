@@ -36,7 +36,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -I ../../Medusa/ -I ../
-CXXFLAGS= -g -I ../../Medusa/ -I ../
+CXXFLAGS= -g -I ../../Medusa/ -I ../ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -lMedusaD -lGCQD -lpthread -ldl -lNetworkD
 RESULT=ProcessClientCLID
@@ -61,7 +61,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -O2 -I ../../Medusa/ -I ../
-CXXFLAGS= -g -O2 -I ../../Medusa/ -I ../
+CXXFLAGS= -g -O2 -I ../../Medusa/ -I ../ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -lMedusa -lGCQ -lpthread -ldl -lNetwork
 RESULT=ProcessClientCLI

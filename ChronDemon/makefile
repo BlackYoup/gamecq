@@ -36,7 +36,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -I ../../Medusa/
-CXXFLAGS= -g -I ../../Medusa/
+CXXFLAGS= -g -I ../../Medusa/ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -lMedusaD -lNetworkD -lGCQD -lpthread -ldl
 RESULT=ChronDemonD
@@ -61,7 +61,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -O2 -I ../../Medusa/
-CXXFLAGS= -g -O2 -I ../../Medusa/
+CXXFLAGS= -g -O2 -I ../../Medusa/ -std=c++0x
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -lMedusa -lNetwork -lGCQ -lpthread -ldl
 RESULT=ChronDemon
